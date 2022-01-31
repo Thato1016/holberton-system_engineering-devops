@@ -1,6 +1,2 @@
-#!/bin/bash
-# Remove comments to pass grader
-# This finds all empty files and directories since
-# find . is recursive and -empty is the flag to find empty
-# We then print with a free form format
+#!/bin/bash 
 find . -empty -printf '%f\n'
